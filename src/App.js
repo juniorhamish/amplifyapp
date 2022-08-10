@@ -7,7 +7,7 @@ const App = ({signOut}) => (
     <View className={"App"}>
         <Card>
             <Image alt={"logo"} src={logo} className={"App-logo"}/>
-            <Heading level={1}>We now have Auth!></Heading>
+            <Heading level={1}>We now have Auth!</Heading>
         </Card>
         <Button onClick={signOut}>Sign Out</Button>
     </View>
